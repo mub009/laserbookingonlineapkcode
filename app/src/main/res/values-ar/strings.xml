@@ -1,0 +1,360 @@
+<resources >
+    <string name="app_name">Laser Booking</string>
+    <!-- Strings related to login page -->
+
+    <string name="privacypolicy">سياسة الخصوصية</string>
+    <string name="appName">عيادات التجميل</string>
+    <string name="sar">ريال</string>
+    <string name="ok">موافق</string>
+    <string name="km">كم</string>
+    <string name="save">حفظ</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <!--login-->
+    <string name="username">اسم المستخدم</string>
+    <string name="password">كلمة المرور</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="skip">تخطي</string>
+    <string name="register">تسجيل</string>
+    <string name="language">English</string>
+    <string name="createAccount">إنشاء حساب جديد</string>
+    <string name="mobile">رقم الجوال</string>
+    <string name="repeat">إعادة كلمة المرور</string>
+    <string name="fullname">الإسم الكامل</string>
+    <string name="loginfailed">فشل تسجيل الدخول</string>
+    <string name="checkcreds">خطأ في رقم الجوال أو كلمة المرور</string>
+    <string name="banned">تم تعطيل هذا الحساب أو حذفه</string>
+    <string name="sel_region">اختر المنطقة</string>
+    <string name="sel_city">اختر المدينة</string>
+    <string name="sel_district">اختر الحي</string>
+    <string name="verify">تفعيل</string>
+    <string name="verify_code">رمز التفعيل</string>
+    <string name="enter_verify_code">أرجو إدخال رمز التفعيل</string>
+    <string name="mobile_unavailable_title">رقم الجوال غير متاح</string>
+    <string name="mobile_unavailable_desc">هذ الرقم مسجل لدينا مسبقاً</string>
+    <string name="verified_title">نجح التفعيل!</string>
+    <string name="verified_desc">الرجاء تسجيل الدخول الآن</string>
+    <string name="invalid_verify_title">رقم غير صحيح</string>
+    <string name="invalid_verify_desc">الرجاء إدخال رقم تفعيل صحيح</string>
+    <string name="forgotpassword">نسيت كلمة المرور؟</string>
+    <string name="sendSMS">أرسل رسالة نصية</string>
+    <string name="sendSMSAgain">ارسال رمز تفعيل جديد</string>
+    <string name="invalid_mobile">الرقم غير موجود</string>
+    <string name="invalid_mobile_desc">لم يتم العثور على رقم الجوال</string>
+    <string name="new_sms_sent">تم الارسال</string>
+    <string name="new_sms_desc">يرجى ادخال رمز التفعيل الجديد</string>
+    <string name="sms_sent">تم إرسال الرسالة النصية!</string>
+    <string name="sms_sent_desc">تم إرسال رابط تغيير كلمة المرور على هذا الرقم، اتبع الرابط ثم حاول تسجيل الدخول مرة أخرى</string>
+    <string name="max_reached">تم تجاوز الحد المسموح به</string>
+    <string name="max_reached_desc">لقد تجاوزت عدد المحاولات المسموح بها خلال اليوم الرجاء المحاولة في وقت لاحق</string>
+    <!--menu-->
+    <string name="greeting">مرحبا، {{name}}</string>
+    <string name="home">الرئيسية</string>
+    <string name="profile">ملفي الشخصي</string>
+    <string name="offers">العروض</string>
+    <string name="special_offers">عروض خاصة</string>
+    <string name="laser_offers">عروض ليزر</string>
+    <string name="nearby">بالقرب</string>
+    <string name="near">بالقرب</string>
+    <string name="laser">ليزر</string>
+    <string name="botox">بوتوكس</string>
+    <string name="filler">فيلر</string>
+    <string name="teeth">اسنان</string>
+    <string name="myAppointments">مواعيدي</string>
+    <string name="unratedAppointments">التقييم</string>
+    <string name="theAppointment">الموعد</string>
+    <!--rate-->
+    <string name="rate">التقييم</string>
+    <string name="chooseRating">اختر التقييم</string>
+    <string name="addComment">أضف تعليقاً</string>
+    <string name="comment">تعليق</string>
+    <string name="send">إرسال</string>
+    <string name="rateSent">تم إرسال التقييم!</string>
+    <string name="thankyou">شكراً لك</string>
+    <!--done-->
+    <string name="doneTitle">تم إنشاء طلبك!</string>
+    <string name="doneSubTitle">تم إرسال الموعد بنجاح!</string>
+    <string name="doneComment">الرجاء الإنتظار حتى يتم تأكيد الموعد</string>
+    <string name="goHome">الذهاب الرئيسية</string>
+    <string name="goToSubscriptions">الذهاب لصفحة المواعيد</string>
+    <!--home-->
+    <string name="search">بحث عيادات او مدن...</string>
+    <string name="nodata">لا توجد بيانات</string>
+    <!--clinic details-->
+    <string name="offer">العرض</string>
+    <string name="services">الخدمات</string>
+    <string name="workingtime">أوقات العمل</string>
+    <string name="ratings">التقييمات</string>
+    <string name="showall">إظهار الكل</string>
+    <string name="location">الموقع</string>
+    <string name="booknow">احجز الآن</string>
+    <string name="naviagte">عرض الطريق</string>
+    <!--clinic ratings-->
+    <string name="clinicRatings">تقييمات العيادة</string>
+    <!--reservation details-->
+    <string name="reason">السبب</string>
+    <string name="writereason">أرجو كتابة السبب</string>
+    <string name="gotolocation">الذهاب إلى الموقع</string>
+    <string name="phone">رقم الهاتف</string>
+    <string name="address">العنوان</string>
+    <string name="clinicName">إسم العيادة</string>
+    <string name="clinicInfo">معلومات العيادة</string>
+    <string name="appointmentInfo">معلومات الموعد</string>
+    <string name="resnumber">رقم الحجز</string>
+    <string name="status">الحالة</string>
+    <string name="cancelres">إلغاء الحجز</string>
+    <string name="alert">تنبيه</string>
+    <string name="confirmCancel">هل تريد بالتأكيد إلغاء الحجز؟</string>
+    <string name="paymentInfo">معلومات الدفع</string>
+    <string name="paymentType">طريقة الدفع</string>
+    <string name="paid">مدفوع؟</string>
+    <!--appointment-->
+    <string name="selectService">اختر خدمة</string>
+    <string name="seltime">اختر الوقت</string>
+    <string name="current">الحالية</string>
+    <string name="previous">السابقة</string>
+    <string name="noAppointments">لا توجد مواعيد</string>
+    <string name="noReservations">لا توجد حجوزات</string>
+    <!--checkout-->
+    <string name="checkout">الحجز</string>
+    <string name="do_checkout">إكمال الحجز</string>
+    <string name="appointmentdetails">تفاصيل الموعد</string>
+    <string name="date">التاريخ</string>
+    <string name="time">الوقت</string>
+    <string name="service">الخدمة</string>
+    <string name="cost">التكلفة</string>
+    <string name="total">الإجمالي</string>
+    <string name="discount">الخصم</string>
+    <string name="duration">المدة</string>
+    <string name="name">الاسم</string>
+    <string name="provider">مقدم الخدمة</string>
+    <string name="providerdetails">معلومات مقدم الخدمة</string>
+    <string name="gender">الجنس</string>
+    <string name="nationality">الجنسية</string>
+    <string name="m">ذكر</string>
+    <string name="f">أنثى</string>
+    <string name="min">دقيقة</string>
+    <string name="unexpectedErr">خطأ غير متوقع</string>
+    <string name="tryagain">نعتذر عن الخلل الفني، حاول مرة أخرى</string>
+    <string name="guestErrTitle">حساب غير صالح</string>
+    <string name="guestErrDesc">أرجو التسجيل لعمل حجوزات جديدة</string>
+    <!--payment methods-->
+    <string name="payment_method">طريقة الدفع</string>
+    <string name="cash">نقدأ</string>
+    <string name="credit">بطاقة إئتمانية</string>
+    <string name="mada">مدى</string>
+    <string name="sadad">سداد</string>
+    <string name="transfer">حوالة بنكية</string>
+    <string name="cc_firstname">الاسم الأول</string>
+    <string name="cc_lastname">الاسم الأخير</string>
+    <string name="cc_number">رقم البطاقة (16 رقم)</string>
+    <string name="cc_exp">تاريخ الإنتهاء</string>
+    <string name="cc_cvv">رقم CVV</string>
+    <string name="exp_year">سنة الإنتهاء</string>
+    <string name="exp_month">شهر الإنتهاء</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="sadadId">حساب سداد</string>
+    <string name="selBankAccount">الحساب البنكي</string>
+    <string name="selDepositDate">تاريخ الايداع</string>
+    <string name="depositorName">اسم المودع</string>
+    <string name="transferAmount">المبلغ</string>
+    <string name="orderProcessing">معالجة الطلب</string>
+    <string name="error">خطأ</string>
+    <string name="enterValidData">الرجاء إدخال بيانات صحيحة</string>
+    <string name="enterAllFields">الرجاء إدخال جميع الحقول المطلوبة</string>
+    <string name="paymentSuccess">تمت معالجة طلبك بنجاح!</string>
+    <string name="paymentSuccessDesc">تم تأكيد حجزك!</string>
+    <string name="paymentFailed">فشلت عملية الدفع</string>
+    <string name="pinError">تأكد من إدخال الرقم السري بشكل صحيح وأن لديك رصيد كافي أو حاول مرة أخرى</string>
+    <string name="transactionApprovalTitle">العملية بانتظار الموافقة</string>
+    <string name="transactionApprovalDesc">هذه العملية بانتظار الموافقة، وسوف يعاد إليك المبلغ حسب شروط البنك المصدر إن لم تتم العملية خلال 24 ساعة</string>
+    <!--profile-->
+    <string name="profileTitle">ملفي الشخصي</string>
+    <string name="yourinfo">معلوماتي</string>
+    <string name="options">الخيارات</string>
+    <string name="logout">تسجيل الخروج</string>
+
+    <string name="cancel_reason">سبب الإلغاء</string>
+    <string name="reject_reason">سبب الرفض</string>
+    <!--statues-->
+    <string name="approved">مؤكد</string>
+    <string name="rejected">مرفوض</string>
+    <string name="completed">مكتمل</string>
+    <string name="cancelled">ملغي</string>
+    <string name="pending">قيد الإنتظار</string>
+    <string name="absent">لم يحضر العميل</string>
+    <!--autocomplete-->
+    <string name="ac_cancel">إلغاء</string>
+    <string name="ac_select">نتائج البحث </string>
+    <string name="ac_selected">المختارة"></string>
+    <string name="ac_noresults">لم يتم العثور على نتيجة</string>
+    <!--ozonedatepicker-->
+    <string name="January">يناير</string>
+    <string name="February">فبراير</string>
+    <string name="March">مارس</string>
+    <string name="April">ابريل</string>
+    <string name="May">مايو</string>
+    <string name="June">يونيو</string>
+    <string name="July">يوليو</string>
+    <string name="August">اغسطس</string>
+    <string name="September">سبتمبر</string>
+    <string name="October">اكتوبر</string>
+    <string name="November">نوفمبر</string>
+    <string name="December">ديسمبر</string>
+    <string name="Su">حد</string>
+    <string name="Mo">اثنين</string>
+    <string name="Tu">ثلاثاء</string>
+    <string name="We">اربع</string>
+    <string name="Th">خميس</string>
+    <string name="Fr">جمعة</string>
+    <string name="Sa">سبت</string>
+    <string name="_Su">ح</string>
+    <string name="_Mo">ن</string>
+    <string name="_Tu">ث</string>
+    <string name="_We">ر</string>
+    <string name="_Th">خ</string>
+    <string name="_Fr">ج</string>
+    <string name="_Sa">س</string>
+    <string name="nointernet">لم يتم العثور على إتصال بالإنترنت</string>
+    <string name="checkinternet">فضلاً تأكدي من الإتصال بالإنترنت</string>
+    <string name="refresh">تحديث</string>
+    <string name="set">اختر</string>
+    <string name="today">اليوم</string>
+    <string name="close">إغلاق,</string>
+    <string name="n_a">غير متوفر</string>
+
+    <string name="terms">الشروط والأحكام</string>
+    <string name="aboutus">من نحن</string>
+    <string name="more">المزيد</string>
+    <string name="unino">الرقم الموحد</string>
+    <string name="register_clinic">طلب تسجيل عيادتك</string>
+    <!--local notification-->
+    <string name="res_reminder">تنبيه للموعد</string>
+    <string name="res_imminent">اقترب موعد الحجز رقم #{{resid}}</string>
+    <string name="anyprovider">أي مقدم خدمة</string>
+    <string name="sorry_notimes">عذرا، لا توجد أوقات متاحة في هذا اليوم</string>
+    <string name="iagree">قرأت وأقبل الشروط والأحكام</string>
+    <string name="select_appointment">اختر الموعد</string>
+    <string name="notavailable">غير متاح</string>
+    <string name="reservation_taken">عذراً، يوجد حجز سابق بنفس هذا الوقت والتاريخ</string>
+    <string name="UPD_TITLE">تم العثور على اصدار جديد</string>
+    <string name="UPD_BODY">أرجو التحديث لاستخدام التطبيق</string>
+    <string name="UPD_OK"> تحديث</string>
+
+    <string name="navigation_drawer_open" >Open navigation drawer</string>
+    <string name="navigation_drawer_close" >Close navigation drawer</string>
+    <string name="showInMap">عرض في الخريطة</string>
+    <string name="side_menu_lang">العربية</string>
+    <string name="laserbooking_features">ان "\ليزربوكنق"\ هو منصة او تطبيق إلكتروني بمثابة الطرف الثالث او الوسيط بين العميل وبين العيادات ومقدمي الخدمة ويتميّز بالتالي:</string>
+    <string name="get_exclusives_special_offers">- الحصول على عروض بأسعار مميزة لخدمات الليزر وعيادات التجميل.</string>
+    <string name="make_an_appointment_online">- حجز مواعيد جلسات الليزر في الوقت الذي يناسبك واختيار ما يناسبك من مراكز التجميل الأقرب.</string>
+
+    <string name="pay_online">- الدفع الالكتروني الآمن للبيانات.</string>
+    <string name="find_the_nearest_center">- إمكانية معرفة تقييم المركز والعيادة والمشاركة في التقييم بعد الخدمة.</string>
+    <string name="phone_number">920021770</string>
+    <string name="terms_page_text"> <b>مقدمة:</b>\n\n
+           ان شركة الترياق الوطني الطبية تضع أهمية كبيرة لعملائها سواء كانوا افرادا او شركات او هيئات حكومية او خاصة من
+                اجل تقديم خدمة افضل ترتقي الى التطلعات.\n\n
+            <b>الشروط والأحكام:</b>
+            \n\nلقد وضعت مجموعة من الشروط والاحكام لضبط التعامل وهي قد تتغير من فترة لأخرى وعند التسجيل في "الموقع "فإن هذا يعد
+                إقرارا بالقراءة ;والموافقة على هذه الشروط والاحكام وكذلك سرية المعلومات علما ان هذه الموقع الالكتروني
+                ومحتوياته و جميع حقوقه هي ملك لشركة الترياق الوطني الطبية وتقدم.;
+            \n\n
+                <b>تعريفات:</b>
+
+            \n\n( نحن - اننا - شركة الترياق الوطني - لنا الموقع الالكتروني - ليزربوكينق ) جميعها تشير الى شركة الترياق
+                الوطني الطبية وهي شركة ذات مسؤولية محدودة وتخضع لاحكام ونظام الشركات في المملكة العربية السعودية وموقعها
+                الرئيسي في مدينة الدمام
+            \n\n" العميل - العملاء " المشتري او الباحث عن المنتج.
+            \n\n
+                <b>طبيعة الخدمة ونطاقها:</b>
+
+            \n\nنحن شركة قائمة تقدم منتجاتها من خلال معارضها ومكاتبها وكذلك من خلال هذا الموقع الالكتروني وفي حالة وجود ملاحظات
+                فاننا سوف نكون على استعداد للرد على استفساراتكم عبر قنوات الاتصال المتعددة والموضحة في كيفية الوصول إلينا.
+            \n\nونود ان نشير الى ان شركائنا هم عيادات وهيئات طبية حصلت على التراخيص اللازمة من الجهات المعنية وهي مخولة لتقديم
+                الخدمة المعروضة على منصة التطبيق وان المنتجات والخدمات المتوفرة لدينا تستند على المعلومات المقدمة لنا من
+                قبلهم حيث يسمح لمسئولي العيادة ;بالتسويق وعرض خدماتهم على منصة التطبيق من خلال منحهم إذن الدخول إلى
+                حساب خصص لهم من اجل ادخال المعلومات التي تخصهم ووضع الاسعار وكل ما يتعلق بذلك اما ما يخص تحميل الصور او التصاميم
+                التي تشير الى الخدمة التي يقدمونها او يقدمها التطبيق فاننا نملك حق نشرها وسوف نتحرى الدقة في ذلك مع عملائنا
+                وشركائنا وفِي حال ظهور عدم دقتها فانه سوف يتخذ الإجراء اللازم من اجل الرقي بخدمات تتواكب وتطلعات عملائنا
+                الكرام.
+            \n\n
+                <b>العروض الخاصة والعروض الترويجية:</b>
+
+            \n\nتتوفر لدينا بشكل متكرر بعض العروض في الاسعار المخفضة والعروض الترويجية التي نقدمها بالتنسيق مع العيادات او يقدمها
+                شركاؤنا وتقتضي شروطها الدفع من خلال منصة التطبيق قبل إتمام الحجز وقد تحمل بعض القيود والشروط مثل ( غير قابل
+                للإلغاء - غير قابل للاسترداد - الاسترداد الجزئي- الالغاء قبل الموعد بفترة محددة ) ولذلك فإننا لن نتحمّل مسؤلية
+                عدم الحضور او التأخير عن الموعد الامر الذي قد يترتب عليه عدم استرداد المبلغ او خصم جزء منه وفقا لشروط الخدمة
+                المقدمة لذلك يرجى التحقق بعناية من شروط العروض المقدمة قبل حجز الخدمة.;
+            \n\n
+                <b>قنوات دفع قيمة الخدمة:</b>
+
+            \n\nمن اجل سرعة وسهولة تقديم الخدمة اليك فقد وفرنا قنوات دفع متعددة حيث يقبل الدفع ببطاقة " مدى " والبطاقات الائتمانية
+                وكذلك التحويل البنكي وبالامكان ايضا الدفع عند مقدم الخدمة ;وجميع وسائل الدفع هي من خلال بنوك وشركات
+                متخصصة تضمن وتتحمل المخاطر في حال وجود اي استخدام غير مصرح او احتيال وقنوات الاتصال بِنَا مفتوحة لمعالجة
+                ما يسبب اي قلق.
+            \n\n
+                <b>الإلغاء وعدم الحضور:</b>
+
+            \n\nفي حالة إجراء حجز الخدمة فإن ذلك يعني حجز هذا الوقت لخدمتك ويتمثل ذلك في حجز اجهزة ومعدات ومقدم خدمة وهذا يشير
+                الى انك تقبل وتوافق على سياسة الإلغاء او سياسة عدم الحضور للخدمة التي حجزت من اجلك ، لذا يرجى الملاحظة بأن
+                أسعار ورسوم معينة وعروض خاصة غير مؤهلة للإلغاء أو الاسترجاع أو التغيير الامر الذي يترتب عليه مبلغ عدم الاسترداد
+                او خصم مبلغ في حالة الإلغاء اوعدم الحضور وعليه فانه يقتضي التحقق من معلومات (الحجز) للخدمة بعناية لأي شرط
+                من هذا القبيل قبل البدء بإجراء حجزك وهي قد تختلف من خدمة لأخرى ومن مقدم خدمة لآخر. وفِي حالة الرغبة في الالغاء
+                يرجى العودة الى الشروط المنظمة لذلك.
+            \n\n
+                <b>التقييم:</b>
+
+            \n\nلاخبار عملاء المستقبل في مزوّد خدمة ما فإن LaserBookingonline سيدعوك بعد الخدمة لتقييم تجربتك عن الخدمة التي
+                قدمت إليك من خلال وضع التقييم الذي تراه بكل موضوعية وتجرد وسوف تظهر على شكل نجوم ويظهر التعليق مكتوبا وفِي
+                كل الاحوال فانه لن تقبل التعليقات المخالفة للقانون بأي شكل من الأشكال سواء بالتصريح او التلميح و سواء كانت
+                ضد الأفراد او اي جهة اخرى. ;
+            \n\nالنسخة الأصلية من هذه الشروط مكتوبة بالعربية وقد تترجم الى لغات اخرى وفِي حال وجود اي خلاف حول شرط ما فإن النسخة
+                العربية هي المرجع لهذه الشروط والاحكام وهي خاضعة لقوانين المملكة العربية السعودية.
+            \n\n
+                <b>سرية البيانات:</b>;
+            \n\nاننا من خلال التطبيق نولي اهتماما كبيرا للمحافظة على سرية بياناتكم على الانترنت التي تم تزويدنا بها عند التسجيل
+                ولقد تم إعداد هذه السياسة من أجل معرفة وتفهم كيفية التعامل مع هذه البيانات.
+            \n\n
+                <b>البيانات المطلوبة :</b>
+
+            \n\nلضمان جودة الخدمة المقدمة لك فإننا سنحتاج لبياناتك اللازمة لذلك وعند تقديمها من قبلك فإن ذلك يتم بمحض إرادتك
+                وجميع ما تقدمه ما هو الا لتقديم خدمة افضل وسرعة التواصل معك.
+            \n\nالدخول دون كشف البيانات الشخصية:
+            \n\nلمساعدتك في اتخاذ قرار التسجيل في الموقع فانه بإمكانك تصفح محتويات الموقع دون ضرورة للتسجيل وتقديم البيانات اللازمة
+                وإنما سيطلب منك التسجيل في حال الرغبة في الاستفادة من منتجاتنا المميزة.
+            \n\n
+                <b>إفشاء المعلومات لأي طرف ثالث :</b>
+
+            \n\nنولي معلوماتك المقدمة من قبلك لنا جل الاهتمام ولن يتم افشائها لأي طرف غير ذي صلة بالخدمات المقدمة لك مالم يتم
+                طلب ذلك من خلال جهة مستندة الى نظام او قانون يحتم تقديمها وكذلك لن يتم بيعها او المتاجرة بها وإنما سيتم استخدامها
+                لتقديم افضل الخدمات لك بشكل يسهل الوصول إليك بطريقة آمنة.
+            \n\n
+                <b>تغيير هذه السياسة :</b>
+
+            \n\nقد يطرأ بعض التغييرات في سياسة الخصوصية وسوف تكون في النسخ المحدثة لذلك نرجو منك قراءتها عند تحديث التطبيق لمعرفة
+                ما اذا طرأ تغيير من عدمه.
+            \n\n
+                <b>الخاتمة :</b>
+
+            \n\nفي حال وجود اي مخاوف او شكاوي فإن قنوات التواصل متوفرة والموضحة في " وسائل الاتصال " و نسعد بتقديم الخدمة المطلوبة.
+            \n\n;</string>
+
+
+    <!-- End of Strings related to login page -->
+    <string name="view_all_ratings">مشاهدة جميع التقيمات</string>
+    <string name="get_directions">احصل على الاتجاهات</string>
+    <string name="pick_date">اختر تاريخ</string>
+    <string name="distance">المسافة</string>
+
+
+    <string-array name="countries_array">
+        <item>Nationality/الجنسية</item>
+        <item>السعودية</item>
+        <item>اليابان</item>
+        <item>الصين</item>
+
+    </string-array>
+
+</resources>
+

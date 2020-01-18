@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SuccessPage">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:theme="@style/AppTheme.PopupOverlay2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:orientation="horizontal">
+
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="50dp"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                app:elevation="0dp"
+                app:popupTheme="@style/AppTheme.PopupOverlay2" />
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/user_input"
+                android:layout_width="280dp"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/rounded_search"
+
+                android:baselineAligned="false">
+
+                <EditText
+                    android:id="@+id/Search"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:background="@color/gray"
+                    android:drawableStart="@drawable/ic_search_gray_24dp"
+                    android:editable="false"
+                    android:focusableInTouchMode="false"
+                    android:hint="@string/search"
+                    android:inputType="text"
+                    android:maxLines="1"
+                    android:onClick="searchPage"
+                    android:singleLine="true"
+                    android:textSize="14sp" />
+
+            </android.support.design.widget.TextInputLayout>
+
+        </LinearLayout>
+
+
+    </android.support.design.widget.AppBarLayout>
+
+    <include layout="@layout/content_success_page" />
+
+</android.support.design.widget.CoordinatorLayout>

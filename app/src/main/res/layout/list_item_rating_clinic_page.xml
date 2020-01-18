@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/raterName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:singleLine="true"
+            android:text="@string/name"
+            android:textColor="@color/Grayfontthick"
+            android:textSize="14sp" />
+
+        <RatingBar
+            android:id="@+id/ratingScore"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_width="180dp"
+            android:layout_height="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:max="5"
+            android:numStars="5"
+            android:theme="@style/RatingBarClinicpage" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/rating_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="left"
+        android:singleLine="false"
+        android:text="@string/comment"
+        android:textColor="@color/black" />
+
+    <View
+        android:id="@+id/viewLine9"
+        android:layout_width="wrap_content"
+        android:layout_height="1dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@android:color/darker_gray" />
+
+</LinearLayout>

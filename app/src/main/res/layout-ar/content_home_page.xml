@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".HomePage"
+    tools:showIn="@layout/app_bar_home_page"
+    android:orientation="vertical">
+
+
+    <android.support.v4.widget.NestedScrollView
+        android:id="@+id/viewscroll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:fillViewport="true">
+
+
+        <LinearLayout
+            android:id="@+id/home_page"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#f2f2f3"
+            android:orientation="vertical"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            >
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="5dp"
+                android:drawableStart="@drawable/ic_percentage"
+                android:drawablePadding="5dp"
+                android:paddingStart="10dp"
+                android:text="@string/laser_offers"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <android.support.v7.widget.CardView
+                android:id="@+id/img_holder"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/curved_img"
+                android:elevation="10dp"
+                app:cardCornerRadius="8dp">
+
+                <com.smarteist.autoimageslider.SliderLayout
+                    android:id="@+id/imageSlider"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </com.smarteist.autoimageslider.SliderLayout>
+            </android.support.v7.widget.CardView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="75dp"
+                android:orientation="vertical">
+
+                <HorizontalScrollView
+                    android:id="@+id/scroll_taps"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginStart="5dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/btn_nearby"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="5dp"
+                            android:clickable="true"
+                            android:onClick="btn_nearbypage"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_btn"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/near" />
+
+                            <TextView
+                                android:id="@+id/catgori1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="بالقرب" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:clickable="true"
+                            android:onClick="btn3"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_btn3"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/laser" />
+
+                            <TextView
+                                android:id="@+id/catgori3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="@string/laser" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_4"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:clickable="true"
+                            android:onClick="btn4"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_btn4"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/filler" />
+
+                            <TextView
+                                android:id="@+id/catgori4"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="@string/filler" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_5"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:clickable="true"
+                            android:onClick="btn5"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_btn5"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/botox" />
+
+                            <TextView
+                                android:id="@+id/catgori5"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="@string/botox" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/btn_6"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:clickable="true"
+                            android:onClick="btn6"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_btn6"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/botox" />
+
+                            <TextView
+                                android:id="@+id/catgori6"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="اسنان" />
+                        </LinearLayout>
+                        <LinearLayout
+                            android:id="@+id/btn_7"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginEnd="5dp"
+                            android:clickable="true"
+                            android:onClick="btn7"
+                            android:orientation="vertical">
+
+                            <ImageView
+                                android:id="@+id/img_btn7"
+                                android:layout_width="50dp"
+                                android:layout_height="50dp"
+                                android:src="@drawable/facial" />
+
+                            <TextView
+                                android:id="@+id/catgori7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:layout_gravity="center"
+                                android:text="بشرة" />
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </HorizontalScrollView>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/offerText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:drawableStart="@drawable/ic_special_offers_icon"
+                android:drawablePadding="5dp"
+                android:paddingStart="10dp"
+                android:text="@string/special_offers"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <ListView
+                android:id="@+id/list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ProgressBar
+                android:id="@+id/listprogress"
+                style="?android:attr/progressBarStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_gravity="center"
+                android:indeterminate="true"
+                android:visibility="gone" />
+
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+</LinearLayout>

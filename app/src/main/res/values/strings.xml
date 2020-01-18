@@ -1,0 +1,492 @@
+<resources>
+    <string name="app_name">Laser Booking</string>
+    <!-- Strings related to login page -->
+
+
+    <string-array name="countries_array">
+        <item>Nationality/الجنسية</item>
+        <item>Afghan</item>
+        <item>Albanian</item>
+        <item>Algerian</item>
+        <item>American</item>
+        <item>Andorran</item>
+        <item>Angolan</item>
+        <item>Antiguans</item>
+        <item>Argentinean</item>
+        <item>Armenian</item>
+        <item>Australian</item>
+        <item>Austrian</item>
+        <item>Azerbaijani</item>
+        <item>Bahamian</item>
+        <item>Bahraini</item>
+        <item>Bangladeshi</item>
+        <item>Barbadian</item>
+        <item>Barbudans</item>
+        <item>Batswana</item>
+        <item>Belarusian</item>
+        <item>Belgian</item>
+        <item>Belizean</item>
+        <item>Beninese</item>
+        <item>Bhutanese</item>
+        <item>Bolivian</item>
+        <item>Bosnian</item>
+        <item>Brazilian</item>
+        <item>British</item>
+        <item>Bruneian</item>
+        <item>Bulgarian</item>
+        <item>Burkinabe</item>
+        <item>Burmese</item>
+        <item>Burundian</item>
+        <item>Cambodian</item>
+        <item>Cameroonian</item>
+        <item>Canadian</item>
+        <item>Cape Verdean</item>
+        <item>Central African</item>
+        <item>Chadian</item>
+        <item>Chilean</item>
+        <item>Chinese</item>
+        <item>Colombian</item>
+        <item>Comoran</item>
+        <item>Congolese</item>
+        <item>Congolese</item>
+        <item>Costa Rican</item>
+        <item>Croatian</item>
+        <item>Cuban</item>
+        <item>Cypriot</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Djibouti</item>
+        <item>Dominican </item>
+        <item>Dominican </item>
+        <item>Dutch</item>
+        <item>Dutchman</item>
+        <item>Dutchwoman</item>
+        <item>East Timorese</item>
+        <item>Ecuadorean</item>
+        <item>Egyptian</item>
+        <item>Emirian</item>
+        <item>Equatorial Guinean</item>
+        <item>Eritrean</item>
+        <item>Estonian</item>
+        <item>Ethiopian</item>
+        <item>Fijian</item>
+        <item>Filipino</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>Gabonese</item>
+        <item>Gambian</item>
+        <item>Georgian</item>
+        <item>German</item>
+        <item>Ghanaian</item>
+        <item>Greek</item>
+        <item>Grenadian</item>
+        <item>Guatemalan</item>
+        <item>Guinea-Bissauan</item>
+        <item>Guinean</item>
+        <item>Guyanese</item>
+        <item>Haitian</item>
+        <item>Herzegovinian</item>
+        <item>Honduran</item>
+        <item>Hungarian</item>
+        <item>I-Kiribati</item>
+        <item>Icelander</item>
+        <item>Indian</item>
+        <item>Indonesian</item>
+        <item>Iranian</item>
+        <item>Iraqi</item>
+        <item>Irish</item>
+        <item>Irish</item>
+        <item>Israeli</item>
+        <item>Italian</item>
+        <item>Ivorian</item>
+        <item>Jamaican</item>
+        <item>Japanese</item>
+        <item>Jordanian</item>
+        <item>Kazakhstani</item>
+        <item>Kenyan</item>
+        <item>Kittian and Nevisian</item>
+        <item>Kuwaiti</item>
+        <item>Kyrgyz</item>
+        <item>Laotian</item>
+        <item>Latvian</item>
+        <item>Lebanese</item>
+        <item>Liberian</item>
+        <item>Libyan</item>
+        <item>Liechtensteiner</item>
+        <item>Lithuanian</item>
+        <item>Luxembourger</item>
+        <item>Macedonian</item>
+        <item>Malagasy</item>
+        <item>Malawian</item>
+        <item>Malaysian</item>
+        <item>Maldivan</item>
+        <item>Malian</item>
+        <item>Maltese</item>
+        <item>Marshallese</item>
+        <item>Mauritanian</item>
+        <item>Mauritian</item>
+        <item>Mexican</item>
+        <item>Micronesian</item>
+        <item>Moldovan</item>
+        <item>Monacan</item>
+        <item>Mongolian</item>
+        <item>Moroccan</item>
+        <item>Mosotho</item>
+        <item>Motswana</item>
+        <item>Mozambican</item>
+        <item>Namibian</item>
+        <item>Nauruan</item>
+        <item>Nepalese</item>
+        <item>Netherlander</item>
+        <item>New Zealander</item>
+        <item>Ni-Vanuatu</item>
+        <item>Nicaraguan</item>
+        <item>Nigerian</item>
+        <item>Nigerien</item>
+        <item>North Korean</item>
+        <item>Northern Irish</item>
+        <item>Norwegian</item>
+        <item>Omani</item>
+        <item>Pakistani</item>
+        <item>Palauan</item>
+        <item>Panamanian</item>
+        <item>Papua New Guinean</item>
+        <item>Paraguayan</item>
+        <item>Peruvian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Qatari</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Rwandan</item>
+        <item>Saint Lucian</item>
+        <item>Salvadoran</item>
+        <item>Samoan</item>
+        <item>San Marinese</item>
+        <item>Sao Tomean</item>
+        <item>Saudi</item>
+        <item>Scottish</item>
+        <item>Senegalese</item>
+        <item>Serbian</item>
+        <item>Seychellois</item>
+        <item>Sierra Leonean</item>
+        <item>Singaporean</item>
+        <item>Slovakian</item>
+        <item>Slovenian</item>
+        <item>Solomon Islander</item>
+        <item>Somali</item>
+        <item>South African</item>
+        <item>South Korean</item>
+        <item>Spanish</item>
+        <item>Sri Lankan</item>
+        <item>Sudanese</item>
+        <item>Surinamer</item>
+        <item>Swazi</item>
+        <item>Swedish</item>
+        <item>Swiss</item>
+        <item>Syrian</item>
+        <item>Taiwanese</item>
+        <item>Tajik</item>
+        <item>Tanzanian</item>
+        <item>Thai</item>
+        <item>Togolese</item>
+        <item>Tongan</item>
+        <item>Trinidadian or Tobagonian</item>
+        <item>Tunisian</item>
+        <item>Turkish</item>
+        <item>Tuvaluan</item>
+        <item>Ugandan</item>
+        <item>Ukrainian</item>
+        <item>Uruguayan</item>
+        <item>Uzbekistani</item>
+        <item>Venezuelan</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Welsh</item>
+        <item>Yemenite</item>
+        <item>Zambian</item>
+    </string-array>
+
+    <string name="privacypolicy">Privacy Policy</string>
+    <string name="appName">Laser Clinics</string>
+    <string name="sar">SAR</string>
+    <string name="ok">Ok</string>
+    <string name="km">Km</string>
+    <string name="save">Save</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <!--login-->
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="skip">Skip</string>
+    <string name="register">Register</string>
+    <string name="language">عربي</string>
+    <string name="createAccount">Create New Account</string>
+    <string name="mobile">Mobile Number</string>
+    <string name="repeat">Repeat Password</string>
+    <string name="fullname">Fullname</string>
+    <string name="loginfailed">Login failed</string>
+    <string name="checkcreds">Invalid mobile number or password</string>
+    <string name="banned">This account is banned or deleted</string>
+    <string name="sel_region">Select a region</string>
+    <string name="sel_city">Select a city</string>
+    <string name="sel_district">Select a district</string>
+    <string name="verify">Verify</string>
+    <string name="verify_code">Verification Code</string>
+    <string name="enter_verify_code">Please enter verification code</string>
+    <string name="mobile_unavailable_title">Mobile Unavailable</string>
+    <string name="mobile_unavailable_desc">This mobile is already registered</string>
+    <string name="verified_title">Verification Success!</string>
+    <string name="verified_desc">Now, please login with mobile and password</string>
+    <string name="invalid_verify_title">Invalid code</string>
+    <string name="invalid_verify_desc">Please enter a correct verification code</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="sendSMS">Send SMS</string>
+    <string name="sendSMSAgain">Send a new verification code</string>
+    <string name="invalid_mobile">Mobile not found!</string>
+    <string name="invalid_mobile_desc">Couldn\'t find this mobile number</string>
+    <string name="new_sms_sent">Sent successfully</string>
+    <string name="new_sms_desc">Please enter the new code</string>
+    <string name="sms_sent">SMS Sent!</string>
+    <string name="sms_sent_desc">Reset Link sent to mobile number follow link to change the password then login again</string>
+    <string name="max_reached">Max tries reached!</string>
+    <string name="max_reached_desc">You\'ve reached maximum number of SMS usage for today please tray after 24 hours</string>
+    <!--menu-->
+    <string name="greeting">Hello, {{name}}</string>
+    <string name="home">Home</string>
+    <string name="profile">My Profile</string>
+    <string name="offers">Offers</string>
+    <string name="laser_offers">Laser Offers</string>
+    <string name="special_offers">Special Offers</string>
+    <string name="nearby">Nearby</string>
+
+    <string name="near">Near</string>
+    <string name="laser">Laser</string>
+    <string name="botox">Botox</string>
+    <string name="filler">Filler</string>
+    <string name="teeth">Teeth</string>
+
+
+    <string name="myAppointments">My appointments</string>
+    <string name="unratedAppointments">Rating</string>
+    <string name="theAppointment">Appointment</string>
+    <!--rate-->
+    <string name="rate">Rate</string>
+    <string name="chooseRating">How was your experience?</string>
+    <string name="addComment">Add more details</string>
+    <string name="comment">Comment</string>
+    <string name="send">Send</string>
+    <string name="rateSent">Rating Sent!</string>
+    <string name="thankyou">Thank you</string>
+    <!--done-->
+    <string name="doneTitle">Appointment Created!</string>
+    <string name="doneSubTitle">Your appointment has been created successfully!</string>
+    <string name="doneComment">Please wait until your appointment is approved</string>
+    <string name="goHome">Go to home page</string>
+    <string name="goToSubscriptions">Go to My Subscriptions </string>
+    <!--home-->
+    <string name="search">Search Clinics or Cities...</string>
+    <string name="nodata">No data found</string>
+    <!--clinic details-->
+    <string name="offer">Offer</string>
+    <string name="services">Services</string>
+    <string name="workingtime">Working times</string>
+    <string name="ratings">Ratings</string>
+    <string name="showall">Show all</string>
+    <string name="location">Location</string>
+    <string name="booknow">Book Now</string>
+    <string name="naviagte">Navigate</string>
+    <!--clinic ratings-->
+    <string name="clinicRatings">Clinic Ratings</string>
+    <!--reservation details-->
+    <string name="reason">Reason</string>
+    <string name="writereason">Please write the reason</string>
+    <string name="gotolocation">Go to Location</string>
+    <string name="phone">Phone</string>
+    <string name="address">Address</string>
+    <string name="clinicName">Clinic Name</string>
+    <string name="clinicInfo">Clinic Info</string>
+    <string name="appointmentInfo">Appointment Info</string>
+    <string name="resnumber">ID</string>
+    <string name="status">Status</string>
+    <string name="cancelres">Cancel Reservation</string>
+    <string name="alert">Alert</string>
+    <string name="confirmCancel">Are you sure you want cancel?</string>
+    <string name="paymentInfo">Payment Info</string>
+    <string name="paymentType">Pay Type</string>
+    <string name="paid">Paid?</string>
+    <!--appointment-->
+    <string name="selectService">Select a Service</string>
+    <string name="seltime">Select time</string>
+    <string name="current">Current</string>
+    <string name="previous">Previous</string>
+    <string name="noAppointments">No appointments found</string>
+    <string name="noReservations">No reservations found</string>
+    <!--checkout-->
+    <string name="checkout">Checkout</string>
+    <string name="do_checkout">Checkout</string>
+    <string name="appointmentdetails">Appointment Details</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="service">Service</string>
+    <string name="cost">Cost</string>
+    <string name="total">Total</string>
+    <string name="discount">Discount</string>
+    <string name="duration">Duration</string>
+    <string name="name">Name</string>
+    <string name="provider">Provider</string>
+    <string name="providerdetails">Provider Details</string>
+    <string name="gender">Gender</string>
+    <string name="nationality">Nationality</string>
+    <string name="m">Male</string>
+    <string name="f">Female</string>
+    <string name="min">Minutes</string>
+    <string name="unexpectedErr">Unexpected Error</string>
+    <string name="tryagain">Sorry, try again later</string>
+    <string name="guestErrTitle">Invalid account</string>
+    <string name="guestErrDesc">You must be a registered user to make an appointment.</string>
+    <!--payment methods-->
+    <string name="payment_method">Payment Method</string>
+    <string name="cash">Cash</string>
+    <string name="credit">Credit Card</string>
+    <string name="mada">Mada</string>
+    <string name="sadad">Sadad</string>
+    <string name="transfer">Bank transfer</string>
+    <string name="cc_firstname">First name</string>
+    <string name="cc_lastname">Last name</string>
+    <string name="cc_number">Credit card number (16)</string>
+    <string name="cc_exp">Expiry Date</string>
+    <string name="cc_cvv">CVV Number</string>
+    <string name="exp_year">Expiration year</string>
+    <string name="exp_month">Expiration month</string>
+    <string name="email">Email</string>
+    <string name="sadadId">Sadad Account</string>
+    <string name="selBankAccount">Select Bank Account</string>
+    <string name="selDepositDate">Deposit Date</string>
+    <string name="depositorName">Depositor Name</string>
+    <string name="transferAmount">Amount</string>
+    <string name="orderProcessing">Order Processing</string>
+    <string name="error">Error</string>
+    <string name="enterValidData">Please enter valid data</string>
+    <string name="enterAllFields">Please enter all required fields</string>
+    <string name="paymentSuccess">Transaction was successful!</string>
+    <string name="paymentSuccessDesc">Your reservation is approved!</string>
+    <string name="paymentFailed">Payment Failed</string>
+    <string name="pinError">Make sure you entered a correct pin number and have enough balance or try again later</string>
+    <string name="transactionApprovalTitle">Transaction Pending Approval</string>
+    <string name="transactionApprovalDesc">This transaction is under review and will be reversed based on your card issuing bank\'s policy, if its not approved within 24 hours</string>
+    <!--profile-->
+    <string name="profileTitle">My profile</string>
+    <string name="yourinfo">Your Information</string>
+    <string name="options">Options</string>
+    <string name="logout">Logout</string>
+    <!--statues-->
+    <string name="approved">Approved</string>
+    <string name="rejected">Rejected</string>
+    <string name="completed">Completed</string>
+    <string name="cancelled">Cancelled</string>
+    <string name="cancel_reason">Cancel Reason</string>
+    <string name="reject_reason">Reject Reason</string>
+
+    <string name="pending">Pending</string>
+    <string name="absent">Client\'s absent</string>
+    <!--autocomplete-->
+    <string name="ac_cancel">Cancel</string>
+    <string name="ac_select">Search results </string>
+    <string name="ac_selected">Selected"></string>
+    <string name="ac_noresults">No results found</string>
+    <!--ozonedatepicker-->
+    <string name="January">January</string>
+    <string name="February">February</string>
+    <string name="March">March</string>
+    <string name="April">April</string>
+    <string name="May">May</string>
+    <string name="June">June</string>
+    <string name="July">July</string>
+    <string name="August">August</string>
+    <string name="September">September</string>
+    <string name="October">October</string>
+    <string name="November">November</string>
+    <string name="December">December</string>
+    <string name="Su">Su</string>
+    <string name="Mo">Mo</string>
+    <string name="Tu">Tu</string>
+    <string name="We">We</string>
+    <string name="Th">Th</string>
+    <string name="Fr">Fr</string>
+    <string name="Sa">Sa</string>
+    <string name="_Su">Su</string>
+    <string name="_Mo">Mo</string>
+    <string name="_Tu">Tu</string>
+    <string name="_We">We</string>
+    <string name="_Th">Th</string>
+    <string name="_Fr">Fr</string>
+    <string name="_Sa">Sa</string>
+    <string name="nointernet">No internet connection found</string>
+    <string name="checkinternet">Please check internet connection</string>
+    <string name="refresh">Refresh</string>
+    <string name="set">Set</string>
+    <string name="today">Today</string>
+    <string name="close">Close,</string>
+    <string name="n_a">Not Available</string>
+    <string name="terms">Terms</string>
+    <string name="aboutus">About Us</string>
+    <string name="more">More</string>
+    <string name="unino">Unified Number</string>
+    <string name="register_clinic">Register your clinic</string>
+    <!--local notification-->
+    <string name="res_reminder">Appointment Reminder</string>
+    <string name="res_imminent">Reservation #{{resid}} is imminent</string>
+    <string name="anyprovider">Any provider</string>
+    <string name="sorry_notimes">Sorry, No available times today!</string>
+    <string name="iagree">I read and accept the terms</string>
+    <string name="select_appointment">Select Appointment</string>
+    <string name="notavailable">Not available</string>
+    <string name="reservation_taken">Sorry, reservation with the same time and date already taken</string>
+    <string name="UPD_TITLE">A new version found</string>
+    <string name="UPD_BODY">Please update to continue using the app</string>
+    <string name="UPD_OK">Update</string>
+
+
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+    <string name="showInMap">Show In Map</string>
+    <string name="side_menu_lang">Eng</string>
+
+
+    <string name="laserbooking_features">Laserbooking features</string>
+    <string name="make_an_appointment_online">- Make an appointment online.</string>
+
+    <string name="get_exclusives_special_offers">- Get exclusives special offers.</string>
+    <string name="pay_online">- Pay online.</string>
+    <string name="find_the_nearest_center">- Find the nearest center.</string>
+
+    <string name="phone_number">920021770</string>
+    <string name="terms_page_text">The infrastructure of platform and all its pages owned by Al Narjes company that located in Saudi Arabia.\n\nWe care about you, so we offer our Platform and customer service center for you, just contact with us.\n\n<b>Definitions:</b>\n\n\"we,\" "us,\" \"our\" means LaseBokingonline.com a limited liability company incorporated under the laws of kingdom of Saudi Arabia.\n\n\"Service Provider\" means clinics.\n\n\"Client, visitor \" means the person who needs the service.\n\n\"Service Reservation\" means the order, payment ,booking.\n
+<b>Introduction:</b>\n\nThese terms may be changed from time to time. By accessing and using our Platform, you acknowledge and agree to have read, understood, and agreed to the conditions and the privacy terms. and you acknowledge that you own the copyright to the photos that you uploading onto our system, and you agree that we may use the uploaded photos on our platform. On the other hand, we will refuse or delete any picture does not meet our criteria without prior notice.\n
+<b>Our Service, Scope:</b>\n
+We work as a part three between you and the service providers ( the clinics ).So, we act solely as an intermediary between you and the service Provider, transmitting the relevant details of your service reservation to the relevant service Provider(Through the Platform, they can advertise, market, sell, promote, and/or offer (as applicable) their products and service for order, purchase, reservation, hire, and through which relevant visitors of the Platform can discover, search, compare, and make an order, booking, payment.  Service Provider is the mean resource of all information that we disclosed. So, the service providers market their services on our Platform. They have an access to our systems and they are fully responsible about the information,and we cannot guarantee that all information is accurate\n
+<b>Payment:</b>\n
+Our service is free of charge for clients, we will not charge you for our booking Service, you will pay just the cost ofservice.  Using many means of secure online payment credit – Mada and other which supported by your bank).   Cancellation, change, late:  For certain (non-refundable) special offers, note that Service Providers may require that payment be made upfront by credit card, Mada card or transfer, (sometimes without any option for refund) . So review all the details of your order before you complete the process.   If you want to change, or cancel your appointment, please read the cancellation policies and make sure to be on location of your appointment 10 minutes before in order to avoid any cancellation penalty.\n
+<b>Evaluation:</b>\n\nAfter completing the service from clinic LaseBookingonline.com will give you the opportunity to evaluate the service using starts which represent the level of service. Soon we will accept the comments but will not accept any illegal activities.\n\n</string>
+    <string name="title_activity_test_map">Maptest</string>
+    <string name="view_all_ratings">View all Ratings</string>
+    <string name="get_directions">Get Directions</string>
+    <string name="title_activity_clinic_page_rating_list">ClinicPageRatingList</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="pick_date">Pick Date</string>
+    <string name="distance">Distance</string>
+
+</resources>
+

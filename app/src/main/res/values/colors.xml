@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#CBB2FE</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="pink">#CBB2FE</color>
+    <color name="gray">#DDDDDD</color>
+    <color name="black">#000000</color>
+    <color name="Transparent">#00000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="backgroundGray">#f2f2f3</color>
+    <color name="Grayfont">#b8b8b9</color>
+    <color name="Grayfontthick">#A0A0A0</color>
+
+    <color name="lightGreen">#90ee90</color>
+
+    <color name="rating_star_colors">	#FFD700</color>
+
+    <color name="purple_dark">#4d0066</color>
+
+    <color name="laser_pink">#cd55ff</color>
+    <color name="laser_pink_disabled">#7b3499</color>
+    <color name="pressed_color">#4d90fe</color>
+    <color name="default_color">#ffffff</color>
+    <color name="mdtp_accent_color">#cd55ff</color>
+    <color name="mdtp_accent_color_dark">#00796b</color>
+
+</resources>

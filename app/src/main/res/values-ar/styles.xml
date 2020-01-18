@@ -1,0 +1,181 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/black</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:listDivider">@color/white</item>
+
+    </style>
+
+    <style name="DialogTheme">
+        <item name="android:windowEnterAnimation">@anim/slide_left</item>
+        <item name="android:windowExitAnimation">@anim/slide_right</item>
+    </style>
+    <style name="myDialog" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        ...
+    </style>
+    <style name="DialogAnimation">
+        <item name="android:windowEnterAnimation">@android:anim/fade_in</item>
+        <item name="android:windowExitAnimation">@android:anim/fade_out</item>
+    </style>
+
+    <style name="DialogAnimation_2">
+        <item name="android:windowEnterAnimation">@anim/slide_up</item>
+        <item name="android:windowExitAnimation">@anim/slide_bottom</item>
+    </style>
+
+    <style name="spinnerItemStyle" parent="android:Widget.TextView.SpinnerItem">
+
+    </style>
+
+    <style name="spinnerDropDownItemStyle" parent="android:TextAppearance.Widget.TextView.SpinnerItem">
+
+    </style>
+
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="AppTheme.PopupOverlay2" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/backgroundGray</item>
+        <item name="android:backgroundStacked">@color/backgroundGray</item>
+        <item name="android:backgroundSplit">@color/backgroundGray</item>
+        <item name="android:textColor">@color/backgroundGray</item>
+        <item name="android:titleTextStyle">@color/backgroundGray</item>
+        <item name="android:actionBarDivider">@color/backgroundGray</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay3" parent="@style/Widget.AppCompat.Light.ActionBar.Solid">
+        <item name="android:background">@color/laser_pink</item>
+        <item name="android:backgroundStacked">@color/laser_pink</item>
+        <item name="android:backgroundSplit">@color/laser_pink</item>
+        <item name="android:textColor">@color/laser_pink</item>
+        <item name="android:titleTextStyle">@color/laser_pink</item>
+        <item name="android:actionBarDivider">@color/laser_pink</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlaySearchPage" parent="@style/Theme.AppCompat.Light.DarkActionBar">
+        <item name="android:background">@color/backgroundGray</item>
+        <item name="android:backgroundStacked">@color/backgroundGray</item>
+        <item name="android:backgroundSplit">@color/backgroundGray</item>
+        <item name="android:textColor">@color/backgroundGray</item>
+        <item name="android:titleTextStyle">@color/backgroundGray</item>
+        <item name="android:actionBarDivider">@color/backgroundGray</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="spinner_style">
+        <item name="android:background">@drawable/background_spinner</item>
+    </style>
+
+    <style name="ToolBarStyle" parent="Theme.AppCompat">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:textColorSecondary">@android:color/black</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:colorBackground">@color/pink</item>
+
+    </style>
+
+    <style name="PopupMenuListView" parent="@style/Widget.AppCompat.ListView.DropDown">
+        <item name="android:divider">@color/white</item>
+        <item name="android:dividerHeight">10dp</item>
+    </style>
+
+    <style name="Divider">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/black</item>
+    </style>
+
+    <style name="AppTheme2" parent="android:Theme.Holo.Light">
+        <item name="android:actionBarStyle">@style/AppTheme.ActionBar</item>
+        <item name="android:background">#f2f2f3</item>
+        <item name="android:colorBackground">#f2f2f3</item>
+    </style>
+
+    <style name="AppTheme.ActionBar" parent="android:Widget.ActionBar">
+        <item name="android:background">#f2f2f3</item>
+    </style>
+
+    <style name="noAnimTheme" parent="android:Theme">
+        <item name="android:windowAnimationStyle">@null</item>
+    </style>
+
+    <style name="CalenderViewCustom" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/laser_pink</item>
+        <item name="colorPrimary">@android:color/darker_gray</item>
+        <item name="android:textColorPrimary">@color/laser_pink</item>
+    </style>
+
+    <style name="CalenderViewDateCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="CalenderViewWeekCustomText" parent="android:TextAppearance.DeviceDefault.Small">
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="MyDatePicker" parent="android:Widget.Material.Light.DatePicker" tools:targetApi="lollipop">
+        .
+        <item name="colorAccent">@color/Grayfont</item>
+
+        <item name="android:textColorPrimary">@color/Grayfont</item>
+    </style>
+
+    <style name="MyDatePickerStyle" parent="@android:style/Widget.Material.Light.DatePicker" tools:targetApi="lollipop">
+        <item name="android:headerBackground">@color/laser_pink</item>
+        <item name="android:calendarTextColor">@color/laser_pink</item>
+        <item name="android:dayOfWeekBackground">@color/laser_pink</item>
+        <item name="android:yearListSelectorColor">@color/laser_pink</item>
+        <item name="android:datePickerMode">calendar</item>
+        <item name="android:minDate">01/01/2000</item>
+        <item name="android:textColorPrimaryInverse">@color/laser_pink</item>
+        <item name="android:colorControlActivated">@color/laser_pink</item>
+        <item name="android:selectableItemBackgroundBorderless">@color/laser_pink</item>
+
+    </style>
+
+    <style name="MyDatePickerDialogTheme" parent="Theme.AppCompat.Light.Dialog">
+        <!-- this is new -->
+        <item name="colorAccent">@color/laser_pink</item>
+
+        <item name="android:datePickerStyle">@style/MyDatePickerStyle2</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/laser_pink</item>
+    </style>
+
+    <style name="MyDatePickerStyle2" parent="@android:style/Widget.Material.Light.DatePicker" tools:targetApi="lollipop">
+        <item name="android:headerBackground">@color/laser_pink</item>
+        <item name="android:calendarTextColor">@color/laser_pink</item>
+        <item name="android:dayOfWeekBackground">@color/laser_pink</item>
+        <item name="android:yearListSelectorColor">@color/laser_pink</item>
+        <item name="android:datePickerMode">calendar</item>
+        <item name="android:minDate">01/01/2000</item>
+    </style>
+
+    <style name="MyDatePickerTextAppearance" parent="TextAppearance.AppCompat.Body1">
+        <item name="android:textColor">@drawable/my_color_state_list</item>
+    </style>
+
+    <style name="MyDatePickerTheme" parent="AppTheme">
+        <item name="colorAccent">@color/laser_pink</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/gray</item>
+        <item name="colorControlActivated">@color/lightGreen</item>
+    </style>
+<style name="SplashThem" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/backgroud_splash</item>
+</style>
+</resources>
